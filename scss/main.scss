@@ -1,22 +1,4 @@
 //
-// Awesome Frameworks
-//
-@import 'utilities/jeet/index';
-@import 'utilities/media-queries';
-
-.banners{
-	section{
-		@include column(1/3); height: 50px;
-		background: #000;
-
-		@include max-screen(420px)
-		{
-			@include stack(); margin-bottom: 1em;
-		}
-	}
-}
-
-//
 // Variables
 //
 $font-stack: Helvetica, sans-serif;
@@ -102,3 +84,22 @@ aside[role="complimentary"] {
 	float: right;
 	width: 300px / 960px * 100%;
 }
+
+
+//
+// Awesome Frameworks
+//
+//@import 'utilities/jeet/index';
+//@import 'utilities/media-queries';
+//
+//.banners{
+//	section{
+//		@include column(1/3); height: 50px;
+//		background: #000;
+//
+//		@include max-screen(420px)
+//		{
+//			@include stack(); margin-bottom: 1em;
+//		}
+//	}
+//}
